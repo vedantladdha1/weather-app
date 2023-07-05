@@ -44,6 +44,7 @@ body{
 }
 
 .search button img{
+  
 width : 16px;
 }
 
@@ -94,7 +95,7 @@ width : 16px;
     margin-top:10px ;
 }
 
-@media(max-width:466px){
+@media(max-width:426px){
 
     .search button img{
         align-items: center;
@@ -105,7 +106,7 @@ width : 16px;
         width : 40px;
         height: 40px;
         align-items: center;
-        margin-left:315px ;
+        margin-left:295px ;
         margin-top:-40px;
     }
     .search input{
@@ -125,3 +126,91 @@ width : 16px;
     }
 }
 
+@media(max-width:425px){
+
+    .search button img{
+        align-items: center;
+        margin-left: 7px;
+    }
+    .search button {
+        display: flex;
+        width : 30px;
+        height: 30px;
+        align-items: center;
+        margin-left:265px ;
+        margin-top:-33px;
+    }
+    .search input{
+        border: 0;
+        outline : 0;
+        background: #ebfffc;
+        color: #555;
+        padding : 10px 25px;
+        height : 35px;
+        border-radius : 30px;
+        flex : 1;
+        margin-right : 8px;
+        font-size : 18px;
+        margin-left:-10px;
+
+    }
+    .error p{
+        margin-left:-2px
+    }
+}
+
+@media(max-width:325px){
+
+    .search button img{
+        align-items: center;
+        margin-left: 5px;
+    }
+    .search button {
+        display: flex;
+        width : 27px;
+        height: 27px;
+        align-items: center;
+        margin-left:210px ;
+        margin-top:-27px;
+    }
+    .search input{
+        border: 0;
+        outline : 0;
+        background: #ebfffc;
+        color: #555;
+        padding : 10px 25px;
+        height : 25px;
+        border-radius : 30px;
+        flex : 1;
+        margin-right : 8px;
+        font-size : 18px;
+        margin-left:-27px;
+        width:230px;
+
+    }
+    .error p{
+        margin-left:-10px
+    }
+    .wind{
+        font-size: 18px;
+        margin-left:-50px;
+    }
+    .windspeed{
+        margin-left:-50px;
+        margin-top: 40px;
+    }
+
+    .humidity{
+        margin-left:-30px;
+    }
+    .humidityalign{
+        margin-left:-30px;
+        margin-top:40px;
+    }
+    .windimg{
+        margin-left:-18px;
+    }
+    .humidimg{
+        margin-left:50px;
+    }
+}
