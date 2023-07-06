@@ -95,7 +95,7 @@ width : 16px;
     margin-top:10px ;
 }
 
-@media(max-width:426px){
+@media(max-width:500px){
 
     .search button img{
         align-items: center;
